@@ -1,0 +1,74 @@
+body {
+    background-color: #F7ECDE;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+span {
+    width: 250px;
+    height: 30px;
+    position: absolute;
+    left: 34%;
+    bottom: 0;
+    z-index: -1;
+}
+
+.bdr {
+    border: 1px black dotted;
+}
+
+i {
+    font-size: 20px;
+    /* background-image: linear-gradient(to right, #3ca55c, #b5ac49); */
+}
+
+h2 {
+    font-family: 'Righteous', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+.title{
+    background-image: linear-gradient(45deg, #3FA55B, #B4AC49);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+}
+.btn{
+    background-color: #BB4120;
+}
+.btn1,.btn2{
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+.btn1{
+    background-color: rgba(138, 158, 35, 0.8);
+    color: white;
+}
+.btn2{
+    background-color:rgba(211, 8, 32, 0.8);
+    color: white;
+}
+ .btn1:hover{
+    background-color:rgba(138, 158, 35, 1);
+}
+ .btn2:hover{
+    background-color:rgba(211, 8, 32);
+}
+.btn:hover {
+    background-color: #BB4120;
+}
+
+
+.form-control:focus {
+    border-color: #d99c39;
+    box-shadow: 0 0 0 0.25rem #fec26055;
+}
+.div1,.div2,.div3{
+    width: 20px;
+    height: 20px;
+}
